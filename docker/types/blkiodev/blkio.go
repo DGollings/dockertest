@@ -1,7 +1,7 @@
 // Copyright © 2023 Ory Corp
 // SPDX-License-Identifier: Apache-2.0
 
-package blkiodev // import "github.com/ory/dockertest/v3/docker/types/blkiodev"
+package blkiodev // import "github.com/dgollings/dockertest/v3/docker/types/blkiodev"
 
 import "fmt"
 

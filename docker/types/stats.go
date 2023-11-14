@@ -3,7 +3,7 @@
 
 // Package types is used for API stability in the types and response to the
 // consumers of the API stats endpoint.
-package types // import "github.com/ory/dockertest/v3/docker/types"
+package types // import "github.com/dgollings/dockertest/v3/docker/types"
 
 import "time"
 

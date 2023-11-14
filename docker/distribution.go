@@ -10,7 +10,7 @@ package docker
 import (
 	"encoding/json"
 
-	"github.com/ory/dockertest/v3/docker/types/registry"
+	"github.com/dgollings/dockertest/v3/docker/types/registry"
 )
 
 // InspectDistribution returns image digest and platform information by contacting the registry

@@ -1,13 +1,13 @@
 // Copyright © 2023 Ory Corp
 // SPDX-License-Identifier: Apache-2.0
 
-package registry // import "github.com/ory/dockertest/v3/docker/types/registry"
+package registry // import "github.com/dgollings/dockertest/v3/docker/types/registry"
 
 import (
 	"encoding/json"
 	"net"
 
-	"github.com/opencontainers/image-spec/specs-go/v1"
+	v1 "github.com/opencontainers/image-spec/specs-go/v1"
 )
 
 // ServiceConfig stores daemon registry services configuration.

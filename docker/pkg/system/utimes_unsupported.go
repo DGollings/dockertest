@@ -4,7 +4,7 @@
 //go:build !linux && !freebsd
 // +build !linux,!freebsd
 
-package system // import "github.com/ory/dockertest/v3/docker/pkg/system"
+package system // import "github.com/dgollings/dockertest/v3/docker/pkg/system"
 
 import "syscall"
 

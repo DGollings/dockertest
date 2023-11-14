@@ -1,7 +1,7 @@
 // Copyright © 2023 Ory Corp
 // SPDX-License-Identifier: Apache-2.0
 
-package archive // import "github.com/ory/dockertest/v3/docker/pkg/archive"
+package archive // import "github.com/dgollings/dockertest/v3/docker/pkg/archive"
 
 import (
 	"archive/tar"
@@ -21,11 +21,11 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/ory/dockertest/v3/docker/pkg/fileutils"
-	"github.com/ory/dockertest/v3/docker/pkg/idtools"
-	"github.com/ory/dockertest/v3/docker/pkg/ioutils"
-	"github.com/ory/dockertest/v3/docker/pkg/pools"
-	"github.com/ory/dockertest/v3/docker/pkg/system"
+	"github.com/dgollings/dockertest/v3/docker/pkg/fileutils"
+	"github.com/dgollings/dockertest/v3/docker/pkg/idtools"
+	"github.com/dgollings/dockertest/v3/docker/pkg/ioutils"
+	"github.com/dgollings/dockertest/v3/docker/pkg/pools"
+	"github.com/dgollings/dockertest/v3/docker/pkg/system"
 	"github.com/sirupsen/logrus"
 )
 
