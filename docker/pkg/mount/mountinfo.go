@@ -1,7 +1,7 @@
 // Copyright © 2023 Ory Corp
 // SPDX-License-Identifier: Apache-2.0
 
-package mount // import "github.com/dgollings/dockertest/v3/docker/pkg/mount"
+package mount // import "github.com/dgollings/dockertest/docker/pkg/mount"
 
 // Info reveals information about a particular mounted filesystem. This
 // struct is populated from the content in the /proc/<pid>/mountinfo file.

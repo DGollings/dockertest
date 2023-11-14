@@ -1,7 +1,7 @@
 // Copyright © 2023 Ory Corp
 // SPDX-License-Identifier: Apache-2.0
 
-package versions // import "github.com/dgollings/dockertest/v3/docker/types/versions"
+package versions // import "github.com/dgollings/dockertest/docker/types/versions"
 
 import (
 	"strconv"

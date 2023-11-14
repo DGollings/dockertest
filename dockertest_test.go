@@ -15,7 +15,7 @@ import (
 	"testing"
 	"time"
 
-	dc "github.com/dgollings/dockertest/v3/docker"
+	dc "github.com/dgollings/dockertest/docker"
 	_ "github.com/go-sql-driver/mysql"
 	_ "github.com/lib/pq"
 	"github.com/stretchr/testify/assert"

@@ -1,7 +1,7 @@
 // Copyright © 2023 Ory Corp
 // SPDX-License-Identifier: Apache-2.0
 
-package filters // import "github.com/dgollings/dockertest/v3/docker/types/filters"
+package filters // import "github.com/dgollings/dockertest/docker/types/filters"
 
 func ExampleArgs_MatchKVList() {
 	args := NewArgs(

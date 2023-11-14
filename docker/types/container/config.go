@@ -1,12 +1,12 @@
 // Copyright © 2023 Ory Corp
 // SPDX-License-Identifier: Apache-2.0
 
-package container // import "github.com/dgollings/dockertest/v3/docker/types/container"
+package container // import "github.com/dgollings/dockertest/docker/types/container"
 
 import (
 	"time"
 
-	"github.com/dgollings/dockertest/v3/docker/types/strslice"
+	"github.com/dgollings/dockertest/docker/types/strslice"
 	"github.com/docker/go-connections/nat"
 )
 

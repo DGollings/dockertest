@@ -4,7 +4,7 @@
 //go:build !windows
 // +build !windows
 
-package archive // import "github.com/dgollings/dockertest/v3/docker/pkg/archive"
+package archive // import "github.com/dgollings/dockertest/docker/pkg/archive"
 
 import (
 	"archive/tar"
@@ -15,8 +15,8 @@ import (
 	"path/filepath"
 	"syscall"
 
-	"github.com/dgollings/dockertest/v3/docker/pkg/idtools"
-	"github.com/dgollings/dockertest/v3/docker/pkg/system"
+	"github.com/dgollings/dockertest/docker/pkg/idtools"
+	"github.com/dgollings/dockertest/docker/pkg/system"
 	"golang.org/x/sys/unix"
 )
 

@@ -1,7 +1,7 @@
 // Copyright © 2023 Ory Corp
 // SPDX-License-Identifier: Apache-2.0
 
-package idtools // import "github.com/dgollings/dockertest/v3/docker/pkg/idtools"
+package idtools // import "github.com/dgollings/dockertest/docker/pkg/idtools"
 
 import (
 	"fmt"

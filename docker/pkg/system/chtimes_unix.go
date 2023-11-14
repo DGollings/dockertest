@@ -4,7 +4,7 @@
 //go:build !windows
 // +build !windows
 
-package system // import "github.com/dgollings/dockertest/v3/docker/pkg/system"
+package system // import "github.com/dgollings/dockertest/docker/pkg/system"
 
 import (
 	"time"

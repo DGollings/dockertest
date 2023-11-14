@@ -4,7 +4,7 @@
 //go:build !windows
 // +build !windows
 
-package container // import "github.com/dgollings/dockertest/v3/docker/types/container"
+package container // import "github.com/dgollings/dockertest/docker/types/container"
 
 // IsValid indicates if an isolation technology is valid
 func (i Isolation) IsValid() bool {

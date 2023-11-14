@@ -1,4 +1,4 @@
-module github.com/dgollings/dockertest/v3
+module github.com/dgollings/dockertest
 
 go 1.17
 

@@ -1,7 +1,7 @@
 // Copyright © 2023 Ory Corp
 // SPDX-License-Identifier: Apache-2.0
 
-package archive // import "github.com/dgollings/dockertest/v3/docker/pkg/archive"
+package archive // import "github.com/dgollings/dockertest/docker/pkg/archive"
 
 import (
 	"archive/tar"
@@ -10,8 +10,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/dgollings/dockertest/v3/docker/pkg/idtools"
-	"github.com/dgollings/dockertest/v3/docker/pkg/longpath"
+	"github.com/dgollings/dockertest/docker/pkg/idtools"
+	"github.com/dgollings/dockertest/docker/pkg/longpath"
 )
 
 // fixVolumePathPrefix does platform specific processing to ensure that if
